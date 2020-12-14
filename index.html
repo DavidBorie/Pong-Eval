@@ -1,0 +1,43 @@
+<html lang="fr">
+    <head>
+        <title>PONG eval</title>
+        <!--Importation du CSS et du jQueries -->
+        <link rel="stylesheet" href="css/pong.css"/>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    </head>
+    <body>
+
+        <!-- Ecran titre : Affichage -->
+        <div>
+            <p> Utilise les touches</p>
+            <div>
+                <div id="↑">↑ et ↓<div id="↓"></div>
+            </div>
+            <p> Tu dispose de 5 vies.</p>
+            <div>
+                <p> ♡  ♡  ♡  ♡  ♡ </p>
+            </div>
+            <a href="#" class="btn">JOUER</a>
+        </div>
+
+        <!-- affichage du terrain -->
+        <div id="terrain">
+            <!-- affichage des score -->
+            <div id="Sgauche" class="score">0</div>
+          <!-- affichage de la balle -->
+            <div id="balle">
+            </div>
+            <!-- Affichage des deux raquettes-->
+            <div id="droite" class="raquette">
+            </div>
+            <div id="gauche" class="raquette">
+            </div>
+        </div>
+    </body>
+    <!-- lancement du script JS--> 
+    <script src="js/Terrain.js"></script>
+    <script src="js/Raquette.js"></script>
+    <script src="js/Balle.js"></script>
+    <script src="js/Joueur.js"></script>
+    <script src="js/pong.js"></script>
+</html>
